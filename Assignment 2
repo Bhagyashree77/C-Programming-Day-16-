@@ -3,7 +3,7 @@
 main()
 {
 float i;
-i=1.10;
+i=1.00;
 while(i<=2.00)
 {
 printf("%.2f\n",i);
