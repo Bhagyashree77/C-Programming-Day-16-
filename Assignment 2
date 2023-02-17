@@ -2,11 +2,14 @@
 #include<conio.h>
 main()
 {
+int n;
+n=1;
 float i;
 i=1.00;
-while(i<=2.00)
+while(n>=10,i<=2.00)
 {
-printf("%.2f\n",i);
+printf("%d\t%.2f\n",n,i);
 i=i+0.10;
+n++;
 }
 }
